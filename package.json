@@ -1,0 +1,31 @@
+{
+  "name": "SwitchNginx",
+  "version": "1.0.0",
+  "description": "A tool to change the local nginx configuration file.",
+  "main": "electron/main.js",
+  "author": "hauk0101",
+  "license": "ISC",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --config './web/config/webpack.config.js'",
+    "build": "webpack --mode production --config './web/config/webpack.config.js'",
+    "start": "electron .",
+    "package": "electron-packager . SwitchNginx --out ./OutApp --electron-version=5.0.2 "
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "8",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "electron": "^5.0.3",
+    "electron-packager": "^13.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
