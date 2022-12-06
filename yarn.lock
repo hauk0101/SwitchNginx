@@ -700,6 +700,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.2.tgz#3452a24edf9fea138b48fad4a0a028a683da1e40"
   integrity sha512-5tabW/i+9mhrfEOUcLDu2xBPsHJ+X5Orqy9FKpale3SjDA17j5AEpYq5vfy3oAeAHGcvANRCO3NV3d2D6q3NiA==
 
+"@types/node@^10.12.18":
+  version "10.17.60"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.60.tgz#35f3d6213daed95da7f0f73e75bcc6980e90597b"
+  integrity sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -2010,7 +2015,7 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-download@^4.1.1:
+electron-download@^4.1.0, electron-download@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/electron-download/-/electron-download-4.1.1.tgz#02e69556705cc456e520f9e035556ed5a015ebe8"
   integrity sha512-FjEWG9Jb/ppK/2zToP+U5dds114fM1ZOJqMAR4aXXL5CvyPE9fiqBK/9YcwC9poIFQTEJk/EM/zyRwziziRZrg==
@@ -2072,6 +2077,15 @@ electron-to-chromium@^1.3.133:
   version "1.3.137"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.137.tgz#ba7c88024984c038a5c5c434529aabcea7b42944"
   integrity sha512-kGi32g42a8vS/WnYE7ELJyejRT7hbr3UeOOu0WeuYuQ29gCpg9Lrf6RdcTQVXSt/v0bjCfnlb/EWOOsiKpTmkw==
+
+electron@^5.0.3:
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-5.0.13.tgz#81d44f2078fb13d306279cf3854d3734f2c390b4"
+  integrity sha512-AM73AMZpb/5zm8eIXsIcp2eMdniD5WO+FqMtlIzhhtSjixflDm0pLtgudz0fHtiT/w6V+6YcpDVb4TtHtrJbHQ==
+  dependencies:
+    "@types/node" "^10.12.18"
+    electron-download "^4.1.0"
+    extract-zip "^1.0.3"
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -4446,9 +4460,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring-es3@^0.2.0:
   version "0.2.1"
